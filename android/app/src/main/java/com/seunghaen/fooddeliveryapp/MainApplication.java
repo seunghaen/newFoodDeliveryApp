@@ -1,4 +1,4 @@
-package com.fooddeliveryapp;
+package com.seunghaen.fooddeliveryapp;
 
 import android.app.Application;
 import android.content.Context;

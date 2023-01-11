@@ -114,7 +114,6 @@
 				EC0FCB0417CB9F1C09058DE9 /* Pods-FoodDeliveryApp-FoodDeliveryAppTests.debug.xcconfig */,
 				32480403E0620D49E64104FB /* Pods-FoodDeliveryApp-FoodDeliveryAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -496,7 +495,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seunghaen.fooddeliveryapp;
 				PRODUCT_NAME = FoodDeliveryApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -521,7 +520,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seunghaen.fooddeliveryapp;
 				PRODUCT_NAME = FoodDeliveryApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
