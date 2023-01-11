@@ -49,6 +49,7 @@ function SignIn({navigation}: SignInScreenProps) {
         email,
         password,
       });
+      setLoading(false);
       console.log(response.data);
       Alert.alert('알림', '로그인 되었습니다.');
       dispatch(
@@ -66,9 +67,9 @@ function SignIn({navigation}: SignInScreenProps) {
       const errorResponse = (error as AxiosError).response;
       if (errorResponse) {
         Alert.alert('알림', errorResponse.data.message);
+        setLoading(false);
       }
     } finally {
-      setLoading(false);
     }
   }, [loading, dispatch, email, password]);
 
@@ -132,6 +133,12 @@ function SignIn({navigation}: SignInScreenProps) {
         </Pressable>
         <Pressable onPress={toSignUp}>
           <Text>회원가입하기</Text>
+        </Pressable>
+        <Pressable
+          onPress={() => {
+            console.log(Config.CHECK);
+          }}>
+          <Text>config 확인</Text>
         </Pressable>
       </View>
     </DismissKeyboardView>
