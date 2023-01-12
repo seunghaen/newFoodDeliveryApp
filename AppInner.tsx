@@ -42,7 +42,6 @@ function AppInner() {
   const [socket, disconnect] = useSocket();
 
   // 앱 실행 시 토큰 있으면 로그인하는 코드
-  usePermissions();
   useEffect(() => {
     const getTokenAndRefresh = async () => {
       try {
@@ -130,6 +129,8 @@ function AppInner() {
       },
     );
   }, [dispatch]);
+
+  usePermissions();
 
   return isLoggedIn ? (
     <Tab.Navigator>
