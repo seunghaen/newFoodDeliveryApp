@@ -13,6 +13,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		579209DD3885B66B170FD573 /* libPods-FoodDeliveryApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9ECD02F3A97773080F749B /* libPods-FoodDeliveryApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		81BF3B4929712A86001CAF62 /* RCTTMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BF3B4829712A86001CAF62 /* RCTTMap.m */; };
+		81BF3B4B29712AFD001CAF62 /* TopLib_Op.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BF3B4A29712AFD001CAF62 /* TopLib_Op.a */; };
 		F34B2D31C877EF47AC507856 /* libPods-FoodDeliveryApp-FoodDeliveryAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F161F2B1895EB6512C29D2C /* libPods-FoodDeliveryApp-FoodDeliveryAppTests.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,28 @@
 		4B9ECD02F3A97773080F749B /* libPods-FoodDeliveryApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodDeliveryApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F302AD62AA271E52797E0E8 /* Pods-FoodDeliveryApp-FoodDeliveryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDeliveryApp-FoodDeliveryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodDeliveryApp-FoodDeliveryAppTests/Pods-FoodDeliveryApp-FoodDeliveryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FoodDeliveryApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81BF3B4729712A5B001CAF62 /* RCTTMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RCTTMap.h; path = FoodDeliveryApp/RCTTMap.h; sourceTree = "<group>"; };
+		81BF3B4829712A86001CAF62 /* RCTTMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTTMap.m; path = FoodDeliveryApp/RCTTMap.m; sourceTree = "<group>"; };
+		81BF3B4A29712AFD001CAF62 /* TopLib_Op.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = TopLib_Op.a; path = "../../../[iOS]TmapSDK_1.47/lib/TopLib_Op.a"; sourceTree = "<group>"; };
+		81BF3B6029712B41001CAF62 /* TMapMarkerItem2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapMarkerItem2.h; sourceTree = "<group>"; };
+		81BF3B6129712B41001CAF62 /* TMapOverlayItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapOverlayItem.h; sourceTree = "<group>"; };
+		81BF3B6229712B41001CAF62 /* TMapPolyLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapPolyLine.h; sourceTree = "<group>"; };
+		81BF3B6329712B41001CAF62 /* TMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapView.h; sourceTree = "<group>"; };
+		81BF3B6429712B41001CAF62 /* TMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMap.h; sourceTree = "<group>"; };
+		81BF3B6529712B41001CAF62 /* TMapCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapCircle.h; sourceTree = "<group>"; };
+		81BF3B6629712B41001CAF62 /* TMapTapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapTapi.h; sourceTree = "<group>"; };
+		81BF3B6729712B41001CAF62 /* BizCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BizCategory.h; sourceTree = "<group>"; };
+		81BF3B6829712B41001CAF62 /* TMapType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapType.h; sourceTree = "<group>"; };
+		81BF3B6929712B41001CAF62 /* TMapGpsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapGpsManager.h; sourceTree = "<group>"; };
+		81BF3B6A29712B41001CAF62 /* TMapKatec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapKatec.h; sourceTree = "<group>"; };
+		81BF3B6B29712B41001CAF62 /* TMapPOIItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapPOIItem.h; sourceTree = "<group>"; };
+		81BF3B6C29712B41001CAF62 /* TMapPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapPoint.h; sourceTree = "<group>"; };
+		81BF3B6D29712B41001CAF62 /* TMapPathData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapPathData.h; sourceTree = "<group>"; };
+		81BF3B6E29712B42001CAF62 /* TMapObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapObject.h; sourceTree = "<group>"; };
+		81BF3B6F29712B42001CAF62 /* TMapBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapBaseView.h; sourceTree = "<group>"; };
+		81BF3B7029712B42001CAF62 /* TMapMarkerItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapMarkerItem.h; sourceTree = "<group>"; };
+		81BF3B7129712B42001CAF62 /* TMapAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapAnnotation.h; sourceTree = "<group>"; };
+		81BF3B7229712B42001CAF62 /* TMapPolygon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMapPolygon.h; sourceTree = "<group>"; };
 		87048D08FBD1A9ED5678F16D /* Pods-FoodDeliveryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDeliveryApp.release.xcconfig"; path = "Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp.release.xcconfig"; sourceTree = "<group>"; };
 		9F161F2B1895EB6512C29D2C /* libPods-FoodDeliveryApp-FoodDeliveryAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodDeliveryApp-FoodDeliveryAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -59,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BF3B4B29712AFD001CAF62 /* TopLib_Op.a in Frameworks */,
 				579209DD3885B66B170FD573 /* libPods-FoodDeliveryApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,12 +111,16 @@
 		13B07FAE1A68108700A75B9A /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				81BF3B5F29712B2B001CAF62 /* New Group */,
+				81BF3B4A29712AFD001CAF62 /* TopLib_Op.a */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				81BF3B4729712A5B001CAF62 /* RCTTMap.h */,
+				81BF3B4829712A86001CAF62 /* RCTTMap.m */,
 			);
 			name = FoodDeliveryApp;
 			sourceTree = "<group>";
@@ -115,6 +144,32 @@
 				2BAAB9307615F7D33291A5CE /* Pods-FoodDeliveryApp-FoodDeliveryAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		81BF3B5F29712B2B001CAF62 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				81BF3B6729712B41001CAF62 /* BizCategory.h */,
+				81BF3B6429712B41001CAF62 /* TMap.h */,
+				81BF3B7129712B42001CAF62 /* TMapAnnotation.h */,
+				81BF3B6F29712B42001CAF62 /* TMapBaseView.h */,
+				81BF3B6529712B41001CAF62 /* TMapCircle.h */,
+				81BF3B6929712B41001CAF62 /* TMapGpsManager.h */,
+				81BF3B6A29712B41001CAF62 /* TMapKatec.h */,
+				81BF3B7029712B42001CAF62 /* TMapMarkerItem.h */,
+				81BF3B6029712B41001CAF62 /* TMapMarkerItem2.h */,
+				81BF3B6E29712B42001CAF62 /* TMapObject.h */,
+				81BF3B6129712B41001CAF62 /* TMapOverlayItem.h */,
+				81BF3B6D29712B41001CAF62 /* TMapPathData.h */,
+				81BF3B6B29712B41001CAF62 /* TMapPOIItem.h */,
+				81BF3B6C29712B41001CAF62 /* TMapPoint.h */,
+				81BF3B7229712B42001CAF62 /* TMapPolygon.h */,
+				81BF3B6229712B41001CAF62 /* TMapPolyLine.h */,
+				81BF3B6629712B41001CAF62 /* TMapTapi.h */,
+				81BF3B6829712B41001CAF62 /* TMapType.h */,
+				81BF3B6329712B41001CAF62 /* TMapView.h */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -410,6 +465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BF3B4929712A86001CAF62 /* RCTTMap.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
