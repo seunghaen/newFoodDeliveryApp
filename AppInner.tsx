@@ -17,6 +17,7 @@ import userSlice from './src/slices/user';
 import {useAppDispatch} from './src/store';
 import Config from 'react-native-config';
 import orderSlice from './src/slices/order';
+import usePermissions from './src/hooks/usePermissions';
 
 export type LoggedInParamList = {
   Orders: undefined;
@@ -129,6 +130,8 @@ function AppInner() {
     );
   }, [dispatch]);
 
+  usePermissions();
+
   return isLoggedIn ? (
     <Tab.Navigator>
       <Tab.Screen
@@ -139,7 +142,7 @@ function AppInner() {
       <Tab.Screen
         name="Delivery"
         component={Delivery}
-        options={{title: '내 오더'}}
+        options={{headerShown: false}}
       />
       <Tab.Screen
         name="Settings"
